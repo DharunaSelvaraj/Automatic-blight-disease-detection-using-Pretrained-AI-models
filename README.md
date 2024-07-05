@@ -16,58 +16,83 @@ Features
 
 Tech Stack
 
-Frontend: Flask (Python web framework)
-Backend: TensorFlow/Keras, PyTorch
-Models: VGG-16, ResNet-9
-IDE: Jupyter Notebook, PyCharm
+-Frontend: Flask (Python web framework)
+
+-Backend: TensorFlow/Keras, PyTorch
+
+-Models: VGG-16, ResNet-9
+
+-IDE: Jupyter Notebook, PyCharm
 
 Prerequisites
 
-Python 3.7 or higher
-TensorFlow
-PyTorch
-Flask
-OpenCV
-NumPy
-Pandas
+-Python 3.7 or higher
+
+-TensorFlow
+
+-PyTorch
+
+-Flask
+
+-OpenCV
+
+-NumPy
+
+-Pandas
+
 Installation
+
 Clone the repository
 
 bash
-Copy code
+
 git clone https://github.com/DharunaSelvaraj/plant-disease-detection.git
+
 cd plant-disease-detection
+
 Create a virtual environment
 
 bash
-Copy code
+
 python -m venv venv
+
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
 Install dependencies
 
 bash
 Copy code
+
 pip install -r requirements.txt
+
 Download pretrained models
 
 Ensure you have the VGG-16 and ResNet-9 models downloaded. You can use the scripts provided in the models/ directory to download and set up the models.
+
 Run the application
 
 bash
-Copy code
+
 flask run
+
 Usage
+
 Launch the Application
 
 Run the Flask application using the command flask run.
+
 Open your web browser and navigate to http://127.0.0.1:5000.
+
 Upload Plant Images
 
 Use the provided interface to upload images of potato or tomato plants.
+
 The system will process the image and provide a diagnosis indicating whether the plant is affected by early or late blight.
+
 View Results
 
 The results will include the type of blight detected and the probability score.
+
 Detailed reports are generated for each uploaded image.
 
 Model Details
