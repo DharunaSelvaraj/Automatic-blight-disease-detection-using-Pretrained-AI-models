@@ -1,4 +1,4 @@
-Plant Disease Detection: Early and Late Blight in Potato and Tomato Plants
+#Plant Disease Detection: Early and Late Blight in Potato and Tomato Plants
 Overview
 This project focuses on detecting early and late blight in potato and tomato plants using advanced AI models. Leveraging pretrained models such as VGG-16 and ResNet-9, we have achieved impressive accuracy rates of 98% and 99% respectively. This tool aims to assist farmers and agricultural experts in early identification and treatment of plant diseases, thus enhancing crop yield and quality.
 
