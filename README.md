@@ -1,18 +1,23 @@
 Plant Disease Detection: Early and Late Blight in Potato and Tomato Plants
-Overview
+Overview:
+
 This project focuses on detecting early and late blight in potato and tomato plants using advanced AI models. Leveraging pretrained models such as VGG-16 and ResNet-9, we have achieved impressive accuracy rates of 98% and 99% respectively. This tool aims to assist farmers and agricultural experts in early identification and treatment of plant diseases, thus enhancing crop yield and quality.
 
 Features
-Detection of early and late blight in potato and tomato plants.
-Utilizes VGG-16 and ResNet-9 pretrained models for high accuracy.
-User-friendly interface for uploading plant images and receiving diagnosis.
-Detailed reporting of results with probability scores.
+
+-Detection of early and late blight in potato and tomato plants.
+-Utilizes VGG-16 and ResNet-9 pretrained models for high accuracy.
+-User-friendly interface for uploading plant images and receiving diagnosis.
+-Detailed reporting of results with probability scores.
 Tech Stack
+
 Frontend: Flask (Python web framework)
 Backend: TensorFlow/Keras, PyTorch
 Models: VGG-16, ResNet-9
 IDE: Jupyter Notebook, PyCharm
+
 Prerequisites
+
 Python 3.7 or higher
 TensorFlow
 PyTorch
@@ -25,7 +30,7 @@ Clone the repository
 
 bash
 Copy code
-git clone https://github.com/your-username/plant-disease-detection.git
+git clone https://github.com/DharunaSelvaraj/plant-disease-detection.git
 cd plant-disease-detection
 Create a virtual environment
 
