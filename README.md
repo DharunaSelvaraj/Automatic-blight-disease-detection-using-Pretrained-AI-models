@@ -1,4 +1,5 @@
 Plant Disease Detection: Early and Late Blight in Potato and Tomato Plants
+
 Overview:
 
 This project focuses on detecting early and late blight in potato and tomato plants using advanced AI models. Leveraging pretrained models such as VGG-16 and ResNet-9, we have achieved impressive accuracy rates of 98% and 99% respectively. This tool aims to assist farmers and agricultural experts in early identification and treatment of plant diseases, thus enhancing crop yield and quality.
@@ -6,9 +7,13 @@ This project focuses on detecting early and late blight in potato and tomato pla
 Features
 
 -Detection of early and late blight in potato and tomato plants.
+
 -Utilizes VGG-16 and ResNet-9 pretrained models for high accuracy.
+
 -User-friendly interface for uploading plant images and receiving diagnosis.
+
 -Detailed reporting of results with probability scores.
+
 Tech Stack
 
 Frontend: Flask (Python web framework)
@@ -64,14 +69,22 @@ View Results
 
 The results will include the type of blight detected and the probability score.
 Detailed reports are generated for each uploaded image.
+
 Model Details
+
 VGG-16
+
 Accuracy: 98%
+
 Description: VGG-16 is a convolutional neural network model with 16 layers. It is known for its deep architecture and effectiveness in image classification tasks.
+
 ResNet-9
+
 Accuracy: 99%
+
 Description: ResNet-9 is a residual network with 9 layers. It addresses the vanishing gradient problem and allows for training of very deep networks with improved accuracy.
 Contribution
+
 We welcome contributions! If you have suggestions, improvements, or bug fixes, please fork the repository and create a pull request.
 
 License
